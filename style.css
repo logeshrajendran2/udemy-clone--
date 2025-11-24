@@ -1,0 +1,107 @@
+body{
+    font-family: "Gabarito", sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+     
+     align-items: center;
+     border-bottom: solid black 1px;
+}
+.nav__s1{
+    color: #A435F0;
+    font-size: 30px;
+}
+.nav__s2{
+    width: 60%;
+    border: 1px;
+    display: flex;
+    border-color: black;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+
+
+}
+.nav__s2__input{
+    border: none;
+    width: 100%;
+    font-size: 15px;
+}
+.nav__s2__input:focus{
+    outline: none;
+}
+.nav__s3{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+.categories{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid 1px black;
+
+
+}
+.categories p{
+    background-color: #A435F0;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+
+}
+.sale-image img{
+    width: 100%;
+    padding-top: 2px;
+}
+.recommend{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.img-card{
+    width: 250px;
+}
+
+.img-card img{
+    width:100%;
+}
+.topics{
+    padding: 10px;
+}
+.topics-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.topics-list p{
+    padding: 2px;
+    border:solid gray 2px;
+    flex-grow: 1;
+    flex-basis: 25%;
+
+}
+.popular-img{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-sec{
+    display: flex;
+    gap: 15px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    margin: 5px;
+    padding: 15px;
+}
+
+.footer-last{
+    display: flex;
+    justify-content: space-between;
+}
